@@ -48,27 +48,62 @@ switch(productosAComprar){
     case "1":
         productosAComprar = precioProductoUno.precio
         products1[0].style.color = "red"
+        swal({
+          title: "¡Gracias por tu compra!",
+          text: "El producto 1 ha sido agregado al carrito",
+          icon: "success",
+          button: "Pagar",
+        });
+      
         alert(`Genial, este cuesta $${precioProductoUno.precio}. Solo lo tenemos en color ${precioProductoUno.color}`)
         
         break
     case "2":
         productosAComprar = precioProductoDos.precio
         product2[0].style.color = "red"
+        swal({
+          title: "¡Gracias por tu compra!",
+          text: "El producto 2 ha sido agregado al carrito",
+          icon: "success",
+          button: "Pagar!",
+        });
+      
         alert(`Genial, este cuesta $${precioProductoDos.precio}. Solo lo tenemos en color ${precioProductoDos.color}`)
         break
     case "3":
         productosAComprar = precioProductoTres.precio
         product3[0].style.color = "red"
+        swal({
+          title: "¡Gracias por tu compra!",
+          text: "El producto 3 ha sido agregado al carrito",
+          icon: "success",
+          button: "Pagar",
+        });
+      
         alert(`Genial, este cuesta $${precioProductoTres.precio}. Solo lo tenemos en color ${precioProductoTres.color}`)
         break
     case "4":
         productosAComprar = precioProductoCuatro.precio
         product4[0].style.color = "red"
+        swal({
+          title: "¡Gracias por tu compra!",
+          text: "El producto 4 ha sido agregado al carrito",
+          icon: "success",
+          button: "Pagar",
+        });
+      
         alert(`Genial, este cuesta $${precioProductoCuatro.precio}. Solo lo tenemos en color ${precioProductoCuatro.color}`)
         break
     case "5":
         productosAComprar = precioProductoCinco.precio
         product5[0].style.color = "red"
+        swal({
+          title: "¡Gracias por tu compra!",
+          text: "El producto 5 ha sido agregado al carrito",
+          icon: "success",
+          button: "Pagar",
+        });
+      
         alert(`Genial, este cuesta $${precioProductoCinco.precio}. Solo lo tenemos en color ${precioProductoCinco.color}`)
         break
     default:
@@ -101,8 +136,6 @@ do{
   alert(nuevaLista.join("\n \n"))
 
   console.log(productoDeseado)
-
-
 
 
 
